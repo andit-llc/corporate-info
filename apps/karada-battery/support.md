@@ -1,6 +1,6 @@
 ---
 title: からだバッテリー サポート
-layout: post
+layout: plain
 description: 'iOSアプリ「からだバッテリー」のサポートページ / Support for Karada Battery'
 permalink: /apps/karada-battery/support/
 nav-menu: false

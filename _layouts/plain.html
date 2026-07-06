@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #ffffff;
+      color: #1d1d1f;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
+      font-size: 16px;
+      line-height: 1.9;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 24px 40px;
+    }
+    h1, h2 { font-weight: 600; line-height: 1.4; }
+    h2 { font-size: 1.65em; margin: 0 0 1.2em; }
+    h2:not(:first-child) { margin-top: 2.5em; padding-top: 1.5em; border-top: 1px solid #e5e5ea; }
+    h3 { font-size: 1.1em; font-weight: 600; margin: 2em 0 0.6em; }
+    p, ul, ol { margin-bottom: 1em; }
+    ul, ol { padding-left: 1.4em; }
+    strong { font-weight: 600; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr { border: none; border-top: 1px solid #e5e5ea; margin: 2em 0; }
+    footer {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px;
+      border-top: 1px solid #e5e5ea;
+      font-size: 0.85em;
+      color: #86868b;
+    }
+    footer a { color: #86868b; }
+  </style>
+</head>
+<body>
+  <main>
+{{ content }}
+  </main>
+  <footer>
+    &copy; <a href="https://andit.net/">合同会社andIT</a>
+  </footer>
+</body>
+</html>

@@ -1,6 +1,6 @@
 ---
 title: からだバッテリー プライバシーポリシー
-layout: post
+layout: plain
 description: 'iOSアプリ「からだバッテリー」のプライバシーポリシー / Privacy Policy for Karada Battery'
 permalink: /apps/karada-battery/privacy/
 nav-menu: false
